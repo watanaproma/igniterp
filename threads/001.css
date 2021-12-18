@@ -1,0 +1,81 @@
+@import url('https://dl.dropboxusercontent.com/s/6orfdlv27fyw6uq/stylesheet.css');
+@import url('https://dl.dropboxusercontent.com/s/4g1i1cqu0w60w3a/stylesheet.css'); 
+@import url('https://dl.dropboxusercontent.com/s/rp9n8djuli9dxdm/stylesheet.css');
+@import url('https://dl.dropboxusercontent.com/s/0weynio60saxmsa/stylesheet.css');
+
+#i45-light { 
+--r1: #fff;
+--r2: #fafafa;
+--r3: #f5f5f5;   
+--r4: #f0f0f0;
+--r5: #eaeaea;
+--r6: #e5e5e5;
+--r7: #e0e0e0;
+--r8: 255,255,255,;
+--d1: #000;
+--d2: #222;
+--d3: #444;
+--d4: 0,0,0,;
+}
+
+#i45-dark { 
+--r1: #000;
+--r2: #0a0a0a;
+--r3: #010101;
+--r4: #121212;
+--r5: #181818;
+--r6: #1f1f1f;
+--r7: #252525;
+--r8: 0,0,0,;
+--d1: #fff;
+--d2: #ccc;
+--d3: #aaa;
+--d4: 255,255,255,;
+}
+
+#i45-dark, #i45-light { 
+--gr1: var(--x1) 0%, var(--x2) 50%, var(--x3) 100%;
+--gr2: rgba(var(--mclr).65) 0%, rgba(var(--hclr).65) 50%, rgba(var(--gclr).65) 100%;
+--gr6: rgba(var(--mclr).1) 0%, rgba(var(--hclr).1) 50%, rgba(var(--gclr).1) 100%;
+--gr6a: rgba(var(--mclr).1) 0%, rgba(var(--gclr).1) 100%;
+--gr6b: rgba(var(--hclr).1) 0%, rgba(var(--gclr).1) 100%;
+--gr6c: rgba(var(--hclr).1) 0%, rgba(var(--mclr).1) 100%;
+--gr7: rgba(var(--mclr).5) 0%, rgba(var(--hclr).5) 50%, rgba(var(--gclr).5) 100%;
+--gr8: rgba(var(--mclr).5) 0%, rgba(var(--gclr).5) 100%;
+--gr9: rgba(var(--hclr).5) 0%, rgba(var(--gclr).5) 100%;
+--gr10: rgba(var(--hclr).5) 0%, rgba(var(--mclr).5) 100%;
+--gr3: var(--x2) 0%, var(--x3) 100%;
+--gr4: var(--x2) 0%, var(--x1) 100%;
+--gr5: var(--x1) 0%, var(--x3) 100%;
+--f1: 'Nouvelle Vague';
+--f2: 'Facundo';
+--f3: 'Keyboard';
+--f4: 'Ellograph CF';
+--f5: 'Font Awesome 6 Pro';
+}
+
+
+
+.yesboss { border-radius: 5px; box-shadow: 0px -4px 8px 4px rgb(0 0 0 / 15%); width: 450px; position: relative; overflow: hidden; margin: 40px auto;  padding: 70px 70px 110px 70px; background: var(--r1) linear-gradient(180deg, var(--gr2)); }
+.yesboss:after { content: '© ignite-rp'; background: var(--r1); position: absolute; bottom: 0px; left: 0px; border-radius: 0px 5px 0px 0px; height: 40px; padding: 0px 12px; font: 400 12px/40px var(--f3); text-transform: uppercase; color: var(--d1); }
+.yesboss grzu { position: absolute; top: -130px; left: -100px; font: 200 730px/100% var(--f5);color: rgba(var(--r8).1); transform: rotate(25deg); }
+.yesboss grzu:after { content: var(--icon); }
+.yesboss .r-wrpp { position: relative; }
+.yesboss .rohit { display: flex; justify-content: space-between; align-items: center; }
+.yesboss .rohit .mainimg { width: 80px; height: 80px; border-radius: 100%; display: block; border: 10px var(--r1) solid; border-left-width: 0px; border-bottom-width: 0px; background: var(--r1); }
+.yesboss .rohit pro { border-radius: 5px; height: 40px; background: rgba(var(--r8).75); padding: 0px 15px 0px 12px; font: 300 15px/40px var(--f4); text-transform: uppercase; color: var(--d1); }
+.yesboss .rohit pro i { font-size: 16px; float: left; line-height: 39px; color: var(--x3); margin-right: 10px; }
+.yesboss .line-space { height: 1px; background: rgba(var(--r8).7); width: 200px; margin: 50px auto; }
+.yesboss .alias { font: 900 90px/100% var(--f1); text-transform: lowercase; color: var(--r1); text-align: center; letter-spacing: -7px; text-shadow: 1px 0px 0px rgba(var(--r4).25); }
+.yesboss .deet { height: 30px; background: var(--d1); font: 400 12px/29px var(--f3); padding: 0px 12px; text-transform: uppercase; color: var(--r1); display: table; margin: 70px auto 10px auto; border-radius: 5px; }
+.yesboss .deet i { line-height: 30px; margin: 0px 6px; display: inline-block; }
+.yesboss .deet i:nth-child(odd) { color: var(--x1); }
+.yesboss .deet i:nth-child(even) { color: var(--x3); }
+.yesboss .m-bdy {  padding: 50px; background: rgba(var(--r8).75); border-radius: 5px; position: relative; margin-top: 70px; }
+.yesboss .m-bdy:after { content: '\f690'; position: absolute; top: -30px; right: 30px; background: var(--d1); display: block; width: 60px; height: 60px; color: var(--r1); font: 900 25px/60px var(--f5); border-radius: 5px; text-transform: uppercase; text-align: center; }
+.yesboss .m-bdy .howmuch { font: 400 13px/100% var(--f4); color: var(--d1); display: table; text-transform: uppercase;}
+.yesboss .m-bdy .howmuch i { display: inline-block; margin-right: 6px; color: var(--x1); }
+.yesboss .m-bdy .howmuch i2 { display: inline-block; margin-right: 6px; color: var(--x3); }
+.yesboss .m-bdy .fill { height: 20px; background: var(--r1); border-radius: 5px; position: relative; overflow: hidden; margin: 20px;  }
+.yesboss .m-bdy .fill fill { display: block; height: 20px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, var(--gr4)); }
+.yesboss .m-bdy .fill fill2 { display: block; height: 20px; position: absolute; top: 0px; left: 0px; background: linear-gradient(-90deg, var(--gr3)); }
