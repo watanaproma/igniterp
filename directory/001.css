@@ -36,7 +36,24 @@
 }
 
 #i45-dark, #i45-light { 
-
+--gr1: var(--x1) 0%, var(--x2) 50%, var(--x3) 100%;
+--gr2: rgba(var(--mclr).65) 0%, rgba(var(--hclr).65) 50%, rgba(var(--gclr).65) 100%;
+--gr6: rgba(var(--mclr).1) 0%, rgba(var(--hclr).1) 50%, rgba(var(--gclr).1) 100%;
+--gr6a: rgba(var(--mclr).1) 0%, rgba(var(--gclr).1) 100%;
+--gr6b: rgba(var(--hclr).1) 0%, rgba(var(--gclr).1) 100%;
+--gr6c: rgba(var(--hclr).1) 0%, rgba(var(--mclr).1) 100%;
+--gr7: rgba(var(--mclr).5) 0%, rgba(var(--hclr).5) 50%, rgba(var(--gclr).5) 100%;
+--gr8: rgba(var(--mclr).5) 0%, rgba(var(--gclr).5) 100%;
+--gr9: rgba(var(--hclr).5) 0%, rgba(var(--gclr).5) 100%;
+--gr10: rgba(var(--hclr).5) 0%, rgba(var(--mclr).5) 100%;
+--gr3: var(--x2) 0%, var(--x3) 100%;
+--gr4: var(--x2) 0%, var(--x1) 100%;
+--gr5: var(--x1) 0%, var(--x3) 100%;
+--f1: 'Nouvelle Vague';
+--f2: 'Facundo';
+--f3: 'Keyboard';
+--f4: 'Ellograph CF';
+--f5: 'Font Awesome 6 Pro';
 }
 
 
