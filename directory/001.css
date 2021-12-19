@@ -35,7 +35,6 @@
 --d4: 255,255,255,;
 }
 
-/* Set text color to white and background color to a shade of teal */
 
 #i45-dark, #i45-light { 
 --gr1: var(--x1) 0%, var(--x2) 50%, var(--x3) 100%;
